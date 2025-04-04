@@ -48,7 +48,7 @@ jwt-microservice/
 
 ```bash
 # Cloner le dépôt
-git clone <url-du-repo>
+git clone https://github.com/Jferndes/jwt-microservice.git
 cd jwt-microservice
 
 # Installer les dépendances
@@ -88,7 +88,10 @@ npm start
 ### Avec Docker
 
 ```bash
-# Construire et démarrer avec Docker Compose
+# Construire avec Docker Compose
+docker-compose build
+
+# Démarrer avec Docker Compose
 docker-compose up -d
 
 # Voir les logs
