@@ -1,0 +1,24 @@
+# Modules Node
+node_modules
+npm-debug.log
+
+# Fichiers d'environnement
+.env
+.env.*
+
+# Fichiers de développement
+.git
+.gitignore
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Dossiers de test et de documentation
+tests/
+docs/
+
+# Autres
+.vscode/
+.idea/
+*.log
