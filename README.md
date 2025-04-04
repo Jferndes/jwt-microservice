@@ -54,21 +54,12 @@ cd jwt-microservice
 
 ## Configuration
 
-Le service utilise les variables d'environnement suivantes:
+Le service utilise les variables d'environnement suivantes dans le fichier `.env`:
 
 - `PORT`: le port sur lequel le serveur sera lancé (par défaut: 3000)
 - `JWT_SECRET`: la clé secrète utilisée pour signer les tokens JWT (définissez une clé forte en production)
 - `JWT_EXPIRES_IN`: durée de validité par défaut des tokens (par défaut: 1h)
 - `NODE_ENV`: environnement d'exécution (development, production, test)
-
-Créez un fichier `.env` à la racine du projet avec ces variables :
-
-```
-PORT=3000
-JWT_SECRET=secretkey
-JWT_EXPIRES_IN=1h
-NODE_ENV=development
-```
 
 ## Lancement du service
 
