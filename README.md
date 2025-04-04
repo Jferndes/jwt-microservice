@@ -50,6 +50,7 @@ jwt-microservice/
 # Cloner le dépôt
 git clone https://github.com/Jferndes/jwt-microservice.git
 cd jwt-microservice
+```
 
 ## Configuration
 
