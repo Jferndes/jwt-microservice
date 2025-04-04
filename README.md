@@ -51,10 +51,6 @@ jwt-microservice/
 git clone https://github.com/Jferndes/jwt-microservice.git
 cd jwt-microservice
 
-# Installer les dépendances
-npm install
-```
-
 ## Configuration
 
 Le service utilise les variables d'environnement suivantes:
@@ -74,16 +70,6 @@ NODE_ENV=development
 ```
 
 ## Lancement du service
-
-### Avec Node.js directement
-
-```bash
-# Mode développement avec redémarrage automatique
-npm run dev
-
-# Mode production
-npm start
-```
 
 ### Avec Docker
 
